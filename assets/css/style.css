@@ -66,7 +66,6 @@ body {
   }
 */
 
-
   .mh1 div {
     height: 40vh; /* 40% of viewport height*/
   }
@@ -77,6 +76,10 @@ body {
 
   .mh3 div {
     height: 7vh; /* 7% of viewport height*/
+  }
+
+  .mh4 div {
+    height: 3vh; /* 3% of viewport height*/
   }
 
   .confinfo-mh3 div a {
@@ -90,11 +93,9 @@ body {
   button {
     background-color: rgb(255, 136, 0);
     color: #FFF;
-    /*font-weight: bold;*/
   }
 
   .txt div p {
-    /*color: rgb(255, 136, 0);*/
     color: red;
     font-style: italic;
     font-size: 14px;
@@ -114,7 +115,6 @@ body {
   }
 
   .confinfo-txt div p {
-    /*color: rgb(255, 136, 0);*/
     color: rgb(255, 136, 0);
     font-style: italic;
     font-size: 16px;
@@ -162,4 +162,17 @@ body {
     height: 2vh;
     font-size: 14px;
   }
+
+  .regTxt {
+    color: rgb(255, 136, 0);
+    font-size: 18px;
+  }
+
+  .regTxtRed {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
 
