@@ -112,6 +112,7 @@ body {
 
   .confinfo-mh3 div {
     height: 5vh; /* 5% of viewport height*/
+    font-size: 16px;
   }
 
   .confinfo-txt div p {
@@ -149,6 +150,7 @@ body {
     color: rgb(255, 136, 0);
     font-size: 18px;
     font-weight: bold;
+    font-style: italic;
   }
 
   /*
@@ -161,18 +163,28 @@ body {
     color: rgb(255, 136, 0);
     height: 2vh;
     font-size: 14px;
+    font-style: italic;
   }
 
   .regTxt {
-    color: rgb(255, 136, 0);
+    color: red;
+    /*color: rgb(255, 136, 0);*/
     font-size: 18px;
+    /*font-weight: bold;*/
+    font-style: italic;
   }
 
   .regTxtRed {
-    color: red;
+    /*color: red;*/
+    color: rgb(255, 136, 0);
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
   }
 
-
+  ul {
+    color: rgb(255, 136, 0);
+    font-style: italic;
+    font-size: 16px;
+    list-style-position: inside;
+  }
